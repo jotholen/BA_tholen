@@ -1,0 +1,5 @@
+<launch>
+<node name="LightPerceptor" pkg="pose_estimation_active_markers" type="LightPerceptor" output="screen"/>
+<node name="LightTracker" pkg="pose_estimation_active_markers" type="LightTracker" output="screen"/>
+<node name="PoseEstimator" pkg="pose_estimation_active_markers" type="PoseEstimator" output="screen"/>
+</launch>
